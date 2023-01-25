@@ -1,0 +1,9 @@
+git --version  //checking the version
+git init  // creates .git hidden folder 
+git --global user.name "Kingsmankiran"   //setting the username 
+git --global user.email "koppollareddykiran@gmail.com"  //setting the email id
+          add file to the git repo
+git status  // show the current status like it is modified or changed
+git add sample.txt   // adding file to the local repo
+git diff sample.txt  // differetiate between the old and new files
+git commit -m "my first commit" sample.txt 
